@@ -13,7 +13,7 @@ const getAns = () => {
     }
 
     console.log(
-      'REMINDER: This is a possible, any solution is accepted as long as it works :) \n'
+      'REMINDER: This is a possible solution, any solution is accepted as long as it works :) \n'
     );
 
     console.log(answers(ans));
