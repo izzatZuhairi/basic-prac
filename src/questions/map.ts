@@ -1,6 +1,6 @@
-import { num_arr } from '../global-var';
+import { num_arr, str_arr } from '../global-var';
 
-export const basic_map = () => {
+export const map_q1 = () => {
   const to_compare_arr = [1, 2, 5, 5, 3, 3, 8, 9, 9];
 
   let count_num_less_than_max_num_arr = 0;
@@ -19,4 +19,14 @@ export const basic_map = () => {
   //
 
   return count_num_less_than_max_num_arr;
+};
+
+export const map_q2 = () => {
+  let string_contains_bird: string[] = [];
+
+  str_arr.map((v) => {
+    if (v.includes('bird')) string_contains_bird.push(v);
+  });
+
+  return string_contains_bird;
 };

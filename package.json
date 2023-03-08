@@ -5,6 +5,7 @@
   "main": "src/index.ts",
   "scripts": {
     "test": "jest",
+    "prepare": "ts-node src/index.ts",
     "start": "ts-node src/index.ts",
     "guide": "ts-node src/guides/guides.ts",
     "answer": "ts-node src/answers/answers.ts"

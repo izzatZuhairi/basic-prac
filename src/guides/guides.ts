@@ -6,12 +6,7 @@ const getGuides = () => {
     output: process.stdout,
   });
 
-  rl.question('Choose questions number: ', (ans) => {
-    if (!Number(ans)) {
-      console.log('Insert a number');
-      throw new Error('not a number');
-    }
-
+  rl.question('Insert question/function name (eg: map_q1): ', (ans) => {
     console.log(guides(ans));
     rl.close();
   });
@@ -19,7 +14,9 @@ const getGuides = () => {
 
 const guides = (num: string) => {
   const g: any = {
-    '1': `1. First find max using map \n2. Then map the compare array using the result from the max value`,
+    map_q1: `
+    1. First find max using map (store the value somewhere)
+    2. Then map the compare array using the result from the max value`,
     default: `No guide for that sorry bro`,
   };
 

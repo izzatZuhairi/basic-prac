@@ -6,12 +6,7 @@ const getAns = () => {
     output: process.stdout,
   });
 
-  rl.question('Choose questions number: ', (ans) => {
-    if (!Number(ans)) {
-      console.log('Insert a number');
-      throw new Error('not a number');
-    }
-
+  rl.question('Insert function name/question name (eg: map_q1): ', (ans) => {
     console.log(
       'REMINDER: This is a possible solution, any solution is accepted as long as it works :) \n'
     );
@@ -23,7 +18,7 @@ const getAns = () => {
 
 const answers = (w: string) => {
   const g: any = {
-    '1': `
+    map_q1: `
     let max: number = 0; 
 
     num_arr.map((num) => {
