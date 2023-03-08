@@ -1,8 +1,6 @@
 export const if_q1 = () => {
   const arr: any = [...Array(40).keys()];
 
-  console.log(arr, '??');
-
   const prime1 = 2;
   const prime2 = 3;
 

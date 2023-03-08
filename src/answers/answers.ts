@@ -46,6 +46,11 @@ const answers = (w: string) => {
         return 'If who?';
     } else return v;
     `,
+    function_q1: `
+    export const function_to_use = (a, b) => {
+        return a + b * a - b;
+    };
+    `,
     default: `Buat sendiri bro hahah`,
   };
 

@@ -23,6 +23,9 @@ const guides = (num: string) => {
     filter_q1: `
     1. google "js filter"
     `,
+    function_q1: `
+    1. Find pattern to make as the pattern
+    `,
     default: `No guide for that sorry bro`,
   };
 
