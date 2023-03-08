@@ -5,18 +5,10 @@ export const map_q1 = () => {
 
   let count_num_less_than_max_num_arr = 0;
 
-  //// logic goes here...
-  // this logic to be removed and put in answer
-  let max: number = 0;
+  // count the number of int in to_compare_arr that is less than the maximum
+  // number of num_arr
 
-  num_arr.map((num) => {
-    if (num > max) max = num;
-  });
-
-  to_compare_arr.map((num) => {
-    if (num < max) count_num_less_than_max_num_arr++;
-  });
-  //
+  // logic goes here...
 
   return count_num_less_than_max_num_arr;
 };
@@ -24,9 +16,9 @@ export const map_q1 = () => {
 export const map_q2 = () => {
   let string_contains_bird: string[] = [];
 
-  str_arr.map((v) => {
-    if (v.includes('bird')) string_contains_bird.push(v);
-  });
+  // find string from string_arr that contains the word 'bird'
+
+  // logic goes here...
 
   return string_contains_bird;
 };

@@ -6,7 +6,8 @@ export const filter_q1 = () => {
   let result: any = [];
 
   // filter only id = 1
-  result = object_array.filter((v) => v.id === 1);
+
+  // logic goes here...
 
   return result;
 };

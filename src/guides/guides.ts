@@ -17,6 +17,12 @@ const guides = (num: string) => {
     map_q1: `
     1. First find max using map (store the value somewhere)
     2. Then map the compare array using the result from the max value`,
+    map_q2: `
+    1. google "js includes"
+    `,
+    filter_q1: `
+    1. google "js filter"
+    `,
     default: `No guide for that sorry bro`,
   };
 

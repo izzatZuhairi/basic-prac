@@ -29,6 +29,14 @@ const answers = (w: string) => {
       if (num < max) count_num_less_than_max_num_arr++;
     });
     `,
+    map_q2: `
+    str_arr.map((v) => {
+        if (v.includes('bird')) string_contains_bird.push(v);
+    });
+    `,
+    filter_q1: `
+    result = object_array.filter((v) => v.id === 1);
+    `,
     default: `Buat sendiri bro hahah`,
   };
 
