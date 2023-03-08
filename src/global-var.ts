@@ -1,4 +1,4 @@
-export const num_arr = [2, 5, 4, 6, 8, 1, 8, 3];
+export const num_arr = [2, 5, 4, 6, 7, 1, 7, 3];
 export const char_arr = ['a', 'b', 'c', 'd', 'e'];
 export const str_arr = [
   'cat',

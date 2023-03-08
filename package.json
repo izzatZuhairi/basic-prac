@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "start": "ts-node src/index.ts",
-    "guide": "ts-node src/guides/guides.ts"
+    "guide": "ts-node src/guides/guides.ts",
+    "answer": "ts-node src/answers/answers.ts"
   },
   "author": "",
   "license": "ISC",

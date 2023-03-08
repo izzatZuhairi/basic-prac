@@ -1,7 +1,7 @@
-import { map } from '../src/questions/map';
+import { basic_map } from '../src/questions/map';
 
 describe('MAP', () => {
-  test('Should return 1', () => {
-    expect(map()).toBe(1);
+  test('Should return 6', () => {
+    expect(basic_map()).toBe(6);
   });
 });
