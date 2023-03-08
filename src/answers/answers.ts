@@ -46,6 +46,12 @@ const answers = (w: string) => {
         return 'If who?';
     } else return v;
     `,
+    array_q1: `
+    array = letters.split()
+    `,
+    array_q2: `
+    newArray.push(...array,'chocolate')
+    `,
     default: `Buat sendiri bro hahah`,
   };
 
