@@ -7,6 +7,7 @@ describe('FUNCTION', () => {
 
     function_q1();
 
+    // expect(fx.function_to_use).toBeCalledWith('int', 'int');
     expect(fx.function_to_use).toHaveBeenCalledTimes(3);
   });
 });
