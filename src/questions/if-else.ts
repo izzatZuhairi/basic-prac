@@ -8,12 +8,16 @@ export const if_q1 = () => {
 
   let result: any = [];
 
+  // return I love ifca, jk if divisible by both prime number
+  // return Ifca hmm.. if divisible by only prime1
+  // return If who? if divisible by only prime2
+
   result = arr.map((v: any) => {
-    if (v % prime1 === 0 && v % prime2 === 0) {
+    if (/** logic goes here */ true) {
       return 'I love ifca, jk';
-    } else if (v % prime1 === 0) {
+    } else if (/** logic goes here */ true) {
       return 'Ifca hmm..';
-    } else if (v % prime2 === 0) {
+    } else if (/** logic goes here */ true) {
       return 'If who?';
     } else return v;
   });

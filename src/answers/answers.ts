@@ -37,6 +37,15 @@ const answers = (w: string) => {
     filter_q1: `
     result = object_array.filter((v) => v.id === 1);
     `,
+    if_q1: `
+    if (v % prime1 === 0 && v % prime2 === 0) {
+        return 'I love ifca, jk';
+    } else if (v % prime1 === 0) {
+        return 'Ifca hmm..';
+    } else if (v % prime2 === 0) {
+        return 'If who?';
+    } else return v;
+    `,
     default: `Buat sendiri bro hahah`,
   };
 
