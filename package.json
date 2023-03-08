@@ -1,0 +1,19 @@
+{
+  "name": "practice-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts",
+    "guide": "ts-node src/guides/guides.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.14.6",
+    "prettier": "^2.8.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
+}
