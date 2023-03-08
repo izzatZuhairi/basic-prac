@@ -1,1 +1,1 @@
-console.log('find the question in questions folder');
+console.log('Find questions from question');

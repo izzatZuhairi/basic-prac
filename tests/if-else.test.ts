@@ -1,0 +1,48 @@
+import { if_q1 } from '../src/questions/if-else';
+
+describe('IF ELSE', () => {
+  test('Should return as expected', () => {
+    expect(if_q1()).toEqual([
+      'I love ifca, jk',
+      1,
+      'Ifca hmm..',
+      'If who?',
+      'Ifca hmm..',
+      5,
+      'I love ifca, jk',
+      7,
+      'Ifca hmm..',
+      'If who?',
+      'Ifca hmm..',
+      11,
+      'I love ifca, jk',
+      13,
+      'Ifca hmm..',
+      'If who?',
+      'Ifca hmm..',
+      17,
+      'I love ifca, jk',
+      19,
+      'Ifca hmm..',
+      'If who?',
+      'Ifca hmm..',
+      23,
+      'I love ifca, jk',
+      25,
+      'Ifca hmm..',
+      'If who?',
+      'Ifca hmm..',
+      29,
+      'I love ifca, jk',
+      31,
+      'Ifca hmm..',
+      'If who?',
+      'Ifca hmm..',
+      35,
+      'I love ifca, jk',
+      37,
+      'Ifca hmm..',
+      'If who?',
+    ]);
+  });
+});
