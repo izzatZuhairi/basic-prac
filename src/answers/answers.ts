@@ -46,6 +46,12 @@ const answers = (w: string) => {
         return 'If who?';
     } else return v;
     `,
+    array_q1: `
+    array = letters.split()
+    `,
+    array_q2: `
+    newArray.push(...array,'chocolate')
+    `,
     function_q1: `
     export const function_to_use = (a, b) => {
         return a + b * a - b;

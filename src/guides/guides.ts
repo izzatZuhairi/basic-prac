@@ -23,6 +23,12 @@ const guides = (num: string) => {
     filter_q1: `
     1. google "js filter"
     `,
+    array_q1: `
+    1. hint : google javascript split letters
+    `,
+    array_q2: `
+    1. google spread operator
+    `,
     function_q1: `
     1. Find pattern to make as the pattern
     `,
