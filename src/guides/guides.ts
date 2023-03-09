@@ -30,7 +30,10 @@ const guides = (num: string) => {
     1. google spread operator
     `,
     function_q1: `
-    1. Find pattern to make as the pattern
+    1. Find pattern for the operation
+    `,
+    error_q1: `
+    1. google "js try catch"
     `,
     default: `No guide for that sorry bro`,
   };

@@ -57,6 +57,22 @@ const answers = (w: string) => {
         return a + b * a - b;
     };
     `,
+    error_q1: `
+    try {
+      primarySch = obj.school.primary;
+      secondarySch = obj.school.secondary;
+      name = obj.name;
+    } catch (e) {
+      return obj;
+    }
+    `,
+    async_q1: `
+    export const rearrange_words = async () => {
+      return (
+        (await word1()) + ' ' + word2() + ' ' + (await word3()) + ' ' + word4()
+      );
+    };
+    `,
     default: `Buat sendiri bro hahah`,
   };
 
