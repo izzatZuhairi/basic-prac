@@ -1,5 +1,17 @@
 # GETTING STARTED
 
+## get started with the module
+
+1. Learn basic `git` commands, recommended start are:
+    - `git pull`
+    - `git push`
+    - `git remote add origin <url>`
+    - `git clone`
+2. You will need to install `git`, and for easier use install `git bash` cli.
+3. Create a directory and `git bash` in the dir.
+4. Copy the `https` url from the source code in github.
+5. Run `git clone <https url you copied>`.
+
 ## required tools for this module
 
 1. `NodeJs` (download LTS version) -> https://nodejs.org/en/download/
