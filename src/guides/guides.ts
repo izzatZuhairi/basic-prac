@@ -35,6 +35,9 @@ const guides = (num: string) => {
     error_q1: `
     1. google "js try catch"
     `,
+    object_q1: `
+    1. google js object operation
+    `,
     default: `No guide for that sorry bro`,
   };
 

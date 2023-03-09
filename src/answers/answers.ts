@@ -73,6 +73,10 @@ const answers = (w: string) => {
       );
     };
     `,
+    object_q1: `
+    obj['favouriteArtist'] = 'Billie Ellish';
+    delete obj.age;
+    `,
     default: `Buat sendiri bro hahah`,
   };
 
