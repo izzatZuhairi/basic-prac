@@ -1,3 +1,4 @@
-export const function_to_use = (a, b) => {
-  return a + b * a - b;
+export const function_to_use = () => {
+  // use this function to solve question 'function_q1'
+  return a
 };
