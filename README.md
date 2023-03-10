@@ -26,5 +26,5 @@ npm install
 
 1. Find the questions in questions folder.
 2. Once you are done with the questions or any question, you can test them by running `npm run test` in the terminal to see which one you got correct.
-3. If you need guides, you can run `npm run guide` -> insert a `number` -> `Enter`.
-4. If you absolutely needs the answer, you can run `npm run answer` -> insert a `number` -> `Enter`.
+3. If you need guides, you can run `npm run guide` -> insert `function name (eg: function_q1)` -> `Enter`.
+4. If you absolutely needs the answer, you can run `npm run answer` -> insert `function name (eg: array_q1)` -> `Enter`.
